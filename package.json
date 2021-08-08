@@ -1,8 +1,8 @@
 {
   "name": "@unpacked/react-native-jest-preset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom React Native Jest preset",
-  "main": "dist/index.js",
+  "main": "dist/jest-preset.js",
   "files": [
     "dist/*"
   ],
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "prepublish": "yarn build"
   },
   "author": "dorb256@gmail.com",
