@@ -1,6 +1,6 @@
 {
   "name": "@unpacked/react-native-jest-preset",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A custom React Native Jest preset",
   "main": "jest-preset.js",
   "files": [
