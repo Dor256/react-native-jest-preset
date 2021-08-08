@@ -4,7 +4,7 @@
   "description": "A custom React Native Jest preset",
   "main": "dist/jest-preset.js",
   "files": [
-    "dist/*"
+    "*.js"
   ],
   "publishConfig": {
     "access": "public",
