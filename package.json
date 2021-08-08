@@ -22,7 +22,8 @@
   "author": "dorb256@gmail.com",
   "license": "ISC",
   "peerDependencies": {
-    "react-native": "*"
+    "react-native": "*",
+    "jest-expo": "*"
   },
   "devDependencies": {
     "@types/node": "^16.4.13"

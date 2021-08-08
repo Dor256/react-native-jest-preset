@@ -1,4 +1,4 @@
-const reactNativePreset = require('react-native/jest-preset');
+const reactNativePreset = require('jest-expo/jest-preset');
 
 module.exports = Object.assign({}, reactNativePreset, {
   setupFiles: [require.resolve('./save-promise')]
